@@ -14,25 +14,26 @@ export default function AboutPage() {
       <SEO
         coverURL={Config.PageCovers.websiteCoverURL}
         description={"Type your brief self-introduction in a sentence here make SEO recognize it easily."}
-        title={`About Me - ${Config.AuthorName}`}
+        title={`About Us - ${Config.AuthorName}`}
       />
       <NavBar />
       <ContentContainer>
-        <h2 className={"caption-font my-5 flex justify-around font-bold text-2xl"}>{"ABOUT ME"}</h2>
+        <h2 className={"caption-font my-5 flex justify-around font-bold text-2xl"}>{"ABOUT COS72"}</h2>
         <Separator />
         <div className={"my-5 justify-center content-font md:flex md:space-x-10"}>
           <div className="my-auto flex md:w-1/3">
-            <img alt="my-profile" className="mx-auto my-auto max-h-[23rem] rounded-lg" src="/images/profile.webp" />
+            <img alt="my-profile" className="mx-auto my-auto max-h-[23rem] rounded-lg" src="/images/profile.png" />
           </div>
           <div className="my-auto md:w-1/3">
-            <div className="mt-5 mb-3 font-bold text-3xl">Hi, there👋</div>I am a student / entrepreneur / engineer
-            (Your profession) majoring in (Your Research Field) born in XXXX (Your birth year)
+            <div className="mt-5 mb-3 font-bold text-3xl">Hi, there👋</div>Cos72 is a Open Source DAO/Community Tool to resolve
+            the THREE KEY QUESTIONS OF DAO (Onboarding, Incentivation and Circle)  with Ethereum AA and OP Stack solutions (Email+Passkey Account, Gas Sponsor and more).
             <br />
             <br />
-            My main research interests includes XXXX
+            More features and how to use follow this:
             <br />
+            English version,<a href="https://www.notion.so/planckerdao/Cos72-d313dc62acaa4031a1e9f50adbb5bb28">Building...</a>
             <br />
-            Additionally, I am also interested in XXXX.
+            Chinese version, <a href="https://www.notion.so/planckerdao/Cos72-d313dc62acaa4031a1e9f50adbb5bb28">中文版使用示范</a>
           </div>
         </div>
         <Separator />
@@ -48,8 +49,8 @@ export default function AboutPage() {
               </Link>
             </li>
           )}
-          <li className="my-2">🖥️ Programming stack: TypeScript, JavaScript, C++, C, Rust, Go and so on.</li>
-          <li className="my-2">🤝 I am looking for friends who are fund of XXXX</li>
+          <li className="my-2">🖥️ Cos72 devote itself to helping Communities be Sustainable</li>
+          <li className="my-2">🤝 It is a different mode with the Capitalism and Market mechanism.</li>
           {Config.SocialLinks.twitter && (
             <li className="my-2">
               {"📫 How to reach me on Twitter: "}
@@ -58,15 +59,11 @@ export default function AboutPage() {
               </Link>
             </li>
           )}
-          <li className="my-2">Language : 汉语 / English / 한국어 / 日本語 </li>
-          <li className="my-2">Gender Identity : Male / Female / MTF / FTM / And Others </li>
-          <li className="my-2">From : Your Country, State / Province</li>
+          <li className="my-2">Build in : Chiang Mai, Thailand</li>
         </ul>
 
         <div className="mx-auto my-10 font-bold md:w-2/3">
-          {
-            "** In addition to the above content, you can also add other customized components, content, etc. to this page. **"
-          }
+          {"📖 "}If you have any questions, please feel free to contact me via email at: hi#(replace with @) aastar.io
         </div>
       </ContentContainer>
       <Footer />

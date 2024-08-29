@@ -2,17 +2,17 @@ import type { TConfig } from "@/types/config.type";
 
 export const Config: TConfig = {
   // Image url for avatar.
-  AvatarURL: "/images/avatar.webp",
+  AvatarURL: "/images/avatar.png",
   // Your favorite motto, or a brief self-introduction, for homepage display
   Sentence:
-    "Two things fill the mind with ever-increasing wonder and awe: the starry heavens above and the moral law within.",
+    "Those who would give up essential Liberty, to purchase a little temporary Safety, deserve neither Liberty nor Safety. Benjamin Franklin 1755",
   // Your nickname, or pen name here.
-  Nickname: "John Doe",
+  Nickname: "Cos72",
 
   // Website main title.
-  SiteTitle: "LEXICAL BLOG",
+  SiteTitle: "Cos72 Blog",
   // Your domain for website.
-  SiteDomain: "nextjs-lexical-blog-demo.vercel.app",
+  SiteDomain: "blog.cos72.org",
 
   // For the cover image displayed on the homepage, the recommended image aspect ratio is 4:1.
   PageCovers: {
@@ -21,19 +21,19 @@ export const Config: TConfig = {
 
   // Your social platform IDs, and email address.
   SocialLinks: {
-    twitter: "example", // Twitter ID
-    instagram: "example", // Instagram ID
-    linkedin: "example", // Linkedin ID
-    github: "example", // Github ID
-    facebook: "example", // Facebook ID
-    youtube: "example", // Channel ID
-    reddit: "example", // Reddit ID
-    bilibili: "123456", // Bilibili Number ID
-    weibo: "123456", // Weibo UID
-    telegram: "example", // Telegram ID
-    quora: "example", //Quora ID
-    mastodon: "https://mas.to/@example", // Mastodon link
-    email: "me@example.com", // Email address, required.
+    twitter: "AAStarCommunity", // Twitter ID
+    // instagram: "example", // Instagram ID
+    // linkedin: "example", // Linkedin ID
+    // github: "AAStarCommunity", // Github ID
+    // facebook: "example", // Facebook ID
+    // youtube: "example", // Channel ID
+    // reddit: "example", // Reddit ID
+    // bilibili: "123456", // Bilibili Number ID
+    // weibo: "123456", // Weibo UID
+    // telegram: "example", // Telegram ID
+    // quora: "example", //Quora ID
+    // mastodon: "https://mas.to/@example", // Mastodon link
+    email: "hi@aastar.io", // Email address, required.
   },
 
   // Giscus Configure. Please refer to the https://giscus.app for entire instruction
@@ -66,24 +66,24 @@ export const Config: TConfig = {
     Crypto: [
       {
         Name: "BTC",
-        Address: "bc1q9mgj2kejx0ag3uu34lp7e6we8cs8z8s6r9les3",
+        Address: "",
         Blockchain: "Bitcoin",
       },
       {
         Name: "ETH",
-        Address: "0xe42110C65Bf732a9F63e95F15e4e1Cc5963D2e74",
+        Address: "",
         Blockchain: "Ethereum",
       },
       {
         Name: "USDT",
-        Address: "0xe42110C65Bf732a9F63e95F15e4e1Cc5963D2e74",
+        Address: "",
         Blockchain: "Ethereum",
       },
     ],
   },
 
   // Website establishment year.
-  YearStart: "2023",
+  YearStart: "2024",
   // Please enter your legal name for use with the copyright mark.
-  AuthorName: "JOHN DOE",
+  AuthorName: "AAStar Team",
 };
