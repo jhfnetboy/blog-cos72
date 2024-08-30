@@ -49,7 +49,7 @@ export const generateRSSFeed = async () => {
     id: Config.SiteDomain,
     link: WebsiteURL,
     image: Config.PageCovers.websiteCoverURL,
-    favicon: `https://${Config.SiteDomain}/favcion.ico`,
+    favicon: `https://${Config.SiteDomain}/favicon.ico`,
     copyright: CopyrightAnnouncement,
     generator: "Node.js Feed",
     author: {
