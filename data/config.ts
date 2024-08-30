@@ -16,7 +16,7 @@ export const Config: TConfig = {
 
   // For the cover image displayed on the homepage, the recommended image aspect ratio is 4:1.
   PageCovers: {
-    websiteCoverURL: "/images/cover.webp",
+    websiteCoverURL: "/images/cover.jpg",
   },
 
   // Your social platform IDs, and email address.
