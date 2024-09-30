@@ -10,14 +10,14 @@ export const SponsorDescription = () => {
       ) : (
         <p className={"break-words text-lg content-font"}>
           {
-            "If you like my works, I would deeply appreciate your support as a patron. Your contribution not only fuels my creative journey but also allows me to delve deeper into my passion. Your support plays a vital role in making this vision a reality. Thank you for considering becoming a patron and being an integral part of this work endeavor."
+            "If you like our works, we would deeply appreciate your support as a patron. Your contribution not only fuels our creative journey but also allows me to delve deeper into our passion."
           }
           <br />
           {
-            "If you have donated me please note your name and contact information, or contact me with the transfer record, and I will add you to the sponsor list."
+            "Cost72 is a Open Source Community Accelerator tool."
           }
           <br />
-          {"Here are the ways you can become a patron. Thank you for your support!"}
+          {"We provide Decentralization based on Web2 UX. More features and thinking, check our Blog"}
           <br />
           <br />
           {`Yours, ${Config.AuthorName}`}

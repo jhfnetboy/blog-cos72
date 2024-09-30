@@ -53,31 +53,31 @@ export const Config: TConfig = {
   // The supported sponsor ways are wechat-pay, alipay and paypal.
   Sponsor: {
     // Your WechatPay QRCode content.
-    WechatPayQRCodeContent: "wxp://xxxxxxxxxxxxxxxxx",
+    // WechatPayQRCodeContent: "wxp://xxxxxxxxxxxxxxxxx",
     // Your Alipay link.
-    AlipayLink: "https://qr.alipay.com/xxxx",
+    // AlipayLink: "https://qr.alipay.com/xxxx",
     // Your Paypal user Id.
-    PaypalId: "xxxx",
+    // PaypalId: "xxxx",
     // If it's true, it will show the github sponsor link button.
     Github: true,
     // Your Patreon user Id.
-    PatreonId: "xxxx",
+    // PatreonId: "xxxx",
     // Write your crypto wallet address here.
     Crypto: [
-      {
-        Name: "BTC",
-        Address: "",
-        Blockchain: "Bitcoin",
-      },
+      // {
+      //   Name: "BTC",
+      //   Address: "",
+      //   Blockchain: "Bitcoin",
+      // },
       {
         Name: "ETH",
-        Address: "",
-        Blockchain: "Ethereum",
+        Address: "0x6fad934CDFC1C29B2291820fDb8847bc9b6F630C",
+        Blockchain: "Optimistic",
       },
       {
         Name: "USDT",
-        Address: "",
-        Blockchain: "Ethereum",
+        Address: "0x6fad934CDFC1C29B2291820fDb8847bc9b6F630C",
+        Blockchain: "Optimistic",
       },
     ],
   },

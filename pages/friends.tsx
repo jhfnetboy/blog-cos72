@@ -32,6 +32,30 @@ export default function FriendsPage() {
             </Link>
           </div>
         </div>
+        <div className="my-2 flex flex-col justify-start text-base">
+          <div className="mx-auto">
+            <div className="relative w-full h-64 my-4">
+              <img
+                src="/images/friends-background.jpg"
+                alt="Friends background"
+                className="absolute inset-0 w-full h-full object-cover rounded-lg"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+                <h3 className="text-white text-3xl font-bold">Our Community</h3>
+                <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                  <img
+                    src="/images/community-rollover.jpg"
+                    alt="Community rollover"
+                    className="w-full h-full object-cover rounded-lg"
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+                    <h3 className="text-white text-3xl font-bold">Join Us!</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </ContentContainer>
       <Footer />
     </Page>

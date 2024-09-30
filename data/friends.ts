@@ -2,19 +2,19 @@ import type { TFriendItem } from "@/types/friend.type";
 
 export const FriendsList: TFriendItem[] = [
   {
-    title: "但为君故's Blog",
-    url: "https://dreams.plus/",
+    title: "AAStar",
+    url: "https://AAStar.io",
   },
   {
-    title: "Your Best Friend's Blog",
-    url: "https://www.example.com/",
+    title: "zuCoffee",
+    url: "https://zu.coffee",
   },
   {
-    title: "Google",
-    url: "https://www.google.com/",
+    title: "Plancker^",
+    url: "https://www.plankcer.org",
   },
   {
-    title: "Github",
-    url: "https://www.github.com/",
+    title: "Chain Asia",
+    url: "https://ChainAsia.org",
   },
 ];

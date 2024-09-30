@@ -31,9 +31,9 @@ export default function AboutPage() {
             <br />
             More features and how to use follow this:
             <br />
-            English version,<a href="https://www.notion.so/planckerdao/Cos72-d313dc62acaa4031a1e9f50adbb5bb28">Building...</a>
+            Basic Demo,<a href="https://cos72.netlify.app/" target="_blank">You can try it now.</a>
             <br />
-            Chinese version, <a href="https://www.notion.so/planckerdao/Cos72-d313dc62acaa4031a1e9f50adbb5bb28">中文版使用示范</a>
+            Cos72, <a href="https://www.notion.so/planckerdao/Cos72-d313dc62acaa4031a1e9f50adbb5bb28" target="_blank">Introduction</a>
           </div>
         </div>
         <Separator />
@@ -63,7 +63,7 @@ export default function AboutPage() {
         </ul>
 
         <div className="mx-auto my-10 font-bold md:w-2/3">
-          {"📖 "}If you have any questions, please feel free to contact me via email at: hi#(replace with @) aastar.io
+          {"📖 "}Any questions, please feel free to contact us via email at: hi#(replace with @) aastar.io
         </div>
       </ContentContainer>
       <Footer />

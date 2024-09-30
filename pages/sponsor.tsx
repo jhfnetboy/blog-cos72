@@ -13,7 +13,7 @@ export default function SponsorPage() {
     <Page>
       <SEO
         description={
-          "If you like my works, I would deeply appreciate your support as a patron. Your contribution not only fuels my creative journey but also allows me to delve deeper into my passion."
+          "If you like our works, we would deeply appreciate your support as a patron. Your contribution not only fuels our creative journey but also allows me to delve deeper into our passion."
         }
         title={`${Config.SiteTitle} - Sponsor Me`}
       />
